@@ -45,8 +45,6 @@ decodeMorse = function (morseCode) {
   const splitCode = morseCode.trim().split(" ")
   const splitCodeSpaceRemove = []
 
-
-
   splitCode.forEach((char, index) => {
     if (splitCode[index + 1] === "" && char === "") {
       return;
